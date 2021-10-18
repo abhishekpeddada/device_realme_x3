@@ -104,3 +104,6 @@ zygote.critical_window.minute=10
 
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
+
+# System
+persist.sys.binary_xml=false
