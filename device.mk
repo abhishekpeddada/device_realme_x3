@@ -170,14 +170,6 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
     WifiOverlay
 
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libdisplayconfig.qti \
-    libnl \
-    libqdMetaData \
-    libqdMetaData.system \
-    vendor.display.config@2.0
 
 # Gapps Permissions
 PRODUCT_COPY_FILES += \
