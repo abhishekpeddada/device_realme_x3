@@ -111,6 +111,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/init/realmeparts.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/realmeparts.rc
 
+# Permissions
+PRODUCT_PROPERTY_OVERRIDES += ro.control_privapp_permissions=log
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.x3
