@@ -63,6 +63,9 @@ ro.vendor.qti.va_aosp.support=1
 # Quick Tap
 persist.acryl.columbus.model=tap7cls_crosshatch.tflite
 
+# Seamless transfer
+sys.fflag.override.settings_seamless_transfer=true
+
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 
