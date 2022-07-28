@@ -36,6 +36,12 @@ ro.com.google.clientidbase.vs=android-oppo
 debug.sf.disable_client_composition_cache=1
 vendor.display.idle_time=32767
 
+# IORap app launch prefetching using Perfetto traces and madvise
+ro.iorapd.enable=false 
+iorapd.perfetto.enable=false 
+iorapd.readahead.enable=false 
+persist.device_config.runtime_native_boot.iorap_readahead_enable=false
+
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 persist.mm.enable.prefetch=true
