@@ -63,6 +63,9 @@ ro.vendor.qti.va_aosp.support=1
 # Quick Tap
 persist.acryl.columbus.model=tap7cls_crosshatch.tflite
 
+# ScalarConfig
+vendor.display.disable_scaler=1
+
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
