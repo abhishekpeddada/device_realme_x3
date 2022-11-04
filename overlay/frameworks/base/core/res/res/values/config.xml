@@ -1106,4 +1106,6 @@
         <item>us.zoom.videomeetings</item>
     </string-array>
 
+    <!-- Display low battery warning when battery level dips to this value -->
+    <integer name="config_lowBatteryWarningLevel">15</integer>
 </resources>
