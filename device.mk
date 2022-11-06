@@ -12,6 +12,9 @@ $(call inherit-product, vendor/realme/x3/x3-vendor.mk)
 # Inherit GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# AAPT
+PRODUCT_CHARACTERISTICS := nosdcard
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong
