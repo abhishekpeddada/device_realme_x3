@@ -71,3 +71,7 @@ ro.soc.model=SM8150
 
 # Project-Elixir Stuff
 org.elixir.device=Realme X3 Series
+
+#Product
+ro.product.name=RMX2081
+ro.product.product.device=RMX2081
