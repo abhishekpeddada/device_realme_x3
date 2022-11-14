@@ -137,6 +137,10 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/oplus
 
+# IncrementalFS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.incremental.enable=yes
+
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.binary_xml=false
