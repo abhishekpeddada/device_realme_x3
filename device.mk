@@ -26,7 +26,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Camera2
+    GCamGOPrebuilt-V2 
 
 # Charger
 PRODUCT_PACKAGES += \
