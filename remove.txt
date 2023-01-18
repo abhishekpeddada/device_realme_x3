@@ -2,3 +2,4 @@ device/realme/
 kernel/realme/
 vendor/realme/
 prebuilts/clang/host/linux-x86/trb_clang
+vendor/aosp
