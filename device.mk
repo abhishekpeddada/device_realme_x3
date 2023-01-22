@@ -176,7 +176,8 @@ PRODUCT_PACKAGES += \
     WifiOverlay
 
 
-# Gapps Permissions
+#  Permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-gapps.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-gapps.xml \
-    $(LOCAL_PATH)/configs/permissions/privapp-permissions-searchselector.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-searchselector.xml
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-searchselector.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-searchselector.xml \
+    $(LOCAL_PATH)/configs/permissions/privapp-permissions-whitelist-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-whitelist-system_ext.xml
