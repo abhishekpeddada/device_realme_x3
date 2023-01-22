@@ -10,5 +10,3 @@ git clone --depth=1 https://gitlab.com/varunhardgamer/trb_clang.git -b 16 prebui
 # Other
 git clone https://github.com/Realme-X3-Series/hardware_oplus.git hardware/oplus
 
-rm -rf v*/a* 
-git clone --depth=1 https://github.com/Project-Elixir/android_vendor_aosp -b srv-test vendor/aosp
