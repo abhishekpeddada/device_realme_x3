@@ -21,17 +21,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configuration
 $(call inherit-product, device/realme/x3/device.mk)
 
-# Inherit common ArrowOS configuration
+# Inherit common Derpfest configuration
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+
+# Derpfest stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_PIXEL_CHARGER := true
-$(call inherit-product, vendor/arrow/config/common.mk)
+TARGET_USES_BLUR := true
 
 # Device identifier
-PRODUCT_NAME := arrow_x3
+PRODUCT_NAME := derp_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme X3 / SuperZoom
 PRODUCT_MANUFACTURER := realme
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
-
-DEVICE_MAINTAINER := Adithya (ghostrider_reborn)
