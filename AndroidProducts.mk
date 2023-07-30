@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_x3.mk
+    $(LOCAL_DIR)/superior_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_x3-user \
-    derp_x3-userdebug \
-    derp_x3-eng
+    superior_x3-user \
+    superior_x3-userdebug \
+    superior_x3-eng

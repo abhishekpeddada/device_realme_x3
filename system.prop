@@ -2,7 +2,8 @@
 ro.audio.monitorRotation=true
 ro.config.media_vol_default=8
 ro.config.media_vol_steps=25
-
+# Maintainer
+ro.spos.maintainer=AbhiRam
 # Bluetooth
 persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so

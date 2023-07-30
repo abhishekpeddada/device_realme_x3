@@ -22,14 +22,26 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/x3/device.mk)
 
 # Inherit common Derpfest configuration
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Derpfest stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_BLUR := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+TARGET_FACEUNLOCK_SUPPORTED := true
+BUILD_WITH_GAPPS := true
+USE_QUICKPIC := true
+USE_MOTO_CALCULATOR := true
+USE_MOTO_CLOCK := true
+USE_DUCKDUCKGO := true
+TARGE_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
 
 # Device identifier
-PRODUCT_NAME := derp_x3
+PRODUCT_NAME := superior_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme X3 / SuperZoom
