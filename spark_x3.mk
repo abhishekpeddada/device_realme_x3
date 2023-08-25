@@ -22,16 +22,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/realme/x3/device.mk)
 
 # Inherit some common Project-Elixir stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
-# Project-Elixir stuff.
-IS_PHONE := true
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ACORE := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+#Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur
+TARGET_ENABLE_BLUR := true
+
+# Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Pixel Stuff
+USE_PIXEL_CHARGER := true
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # AOSP Dialer
 FORCE_AOSP_DIALER := true
@@ -41,7 +47,7 @@ ELIXIR_MAINTAINER := Ak
 ELIXIR_BUILD_TYPE := OFFICIAL
 
 # Device identifier
-PRODUCT_NAME := aosp_x3
+PRODUCT_NAME := spark_x3
 PRODUCT_DEVICE := x3
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme X3 / SuperZoom

@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_x3.mk
+    $(LOCAL_DIR)/spark_x3.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_x3-user \
-    aosp_x3-userdebug \
-    aosp_x3-eng
+    spark_x3-user \
+    spark_x3-userdebug \
+    spark_x3-eng
